@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <title>Orbit — un peu de mouvement</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="./index.html">✳ ORBIT</a><span>Une petite expérience interactive</span></header>
+  <main>
+    <div class="intro"><p class="eyebrow">PRENEZ UNE PETITE PAUSE</p><h1>Un peu de<br><em>mouvement.</em></h1><p>Une orbite, mille couleurs.<br>Déplacez votre souris et laissez-vous porter.</p></div>
+    <div class="scene" id="scene" aria-label="Animation d’une sphère lumineuse">
+      <div class="halo"></div><div class="ring ring-one"></div><div class="ring ring-two"></div>
+      <div class="mover" id="mover"><div class="orb" id="orb"></div></div><span class="spark spark-one"></span><span class="spark spark-two"></span>
+    </div>
+    <div class="controls"><button id="color" type="button">Changer la couleur <span aria-hidden="true">↗</span></button><button id="pause" class="secondary" type="button" aria-pressed="false">Mettre en pause</button><p>Cliquez sur le fond pour créer une onde.</p></div>
+  </main>
+  <footer><span>HTML · CSS · JavaScript</span><span>Sans dépendance. Juste du mouvement.</span></footer>
+</body>
+</html>
