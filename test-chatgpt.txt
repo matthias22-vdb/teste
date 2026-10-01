@@ -1,0 +1,4 @@
+Test de connexion ChatGPT ↔ GitHub réussi.
+
+Ce fichier a été créé automatiquement pour vérifier l'accès en écriture au dépôt.
+Date du test : 1 octobre 2026.
